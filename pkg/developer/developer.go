@@ -3,7 +3,7 @@ package developer
 import (
 	"net/url"
 
-	"github.com/n0madic/google-play-scraper/pkg/scraper"
+	"github.com/harshit54/google-play-scraper/pkg/scraper"
 )
 
 // Options type alias

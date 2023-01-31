@@ -1,7 +1,7 @@
 # google-play-scraper
 
-[![GoDoc](https://godoc.org/github.com/n0madic/google-play-scraper/pkg?status.svg)](https://godoc.org/github.com/n0madic/google-play-scraper/pkg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/n0madic/google-play-scraper)](https://goreportcard.com/report/github.com/n0madic/google-play-scraper)
+[![GoDoc](https://godoc.org/github.com/harshit54/google-play-scraper/pkg?status.svg)](https://godoc.org/github.com/harshit54/google-play-scraper/pkg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/harshit54/google-play-scraper)](https://goreportcard.com/report/github.com/harshit54/google-play-scraper)
 [![Coverage Status](https://coveralls.io/repos/github/n0madic/google-play-scraper/badge.svg?branch=master)](https://coveralls.io/github/n0madic/google-play-scraper?branch=master)
 
 Golang scraper to get data from Google Play Store
@@ -11,7 +11,7 @@ This project is inspired by the [google-play-scraper](https://github.com/facundo
 ## Installation
 
 ```shell
-go get -u github.com/n0madic/google-play-scraper/...
+go get -u github.com/harshit54/google-play-scraper/...
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ package main
 
 import (
     "github.com/davecgh/go-spew/spew"
-    "github.com/n0madic/google-play-scraper/pkg/app"
+    "github.com/harshit54/google-play-scraper/pkg/app"
 )
 
 func main() {
@@ -55,7 +55,7 @@ package main
 import (
     "fmt"
 
-    "github.com/n0madic/google-play-scraper/pkg/search"
+    "github.com/harshit54/google-play-scraper/pkg/search"
 )
 
 func main() {
@@ -97,8 +97,8 @@ package main
 import (
     "fmt"
 
-    "github.com/n0madic/google-play-scraper/pkg/category"
-    "github.com/n0madic/google-play-scraper/pkg/store"
+    "github.com/harshit54/google-play-scraper/pkg/category"
+    "github.com/harshit54/google-play-scraper/pkg/store"
 )
 
 func main() {
@@ -133,8 +133,8 @@ package main
 import (
     "fmt"
 
-    "github.com/n0madic/google-play-scraper/pkg/collection"
-    "github.com/n0madic/google-play-scraper/pkg/store"
+    "github.com/harshit54/google-play-scraper/pkg/collection"
+    "github.com/harshit54/google-play-scraper/pkg/store"
 )
 
 func main() {
@@ -163,7 +163,7 @@ package main
 import (
     "fmt"
 
-    "github.com/n0madic/google-play-scraper/pkg/developer"
+    "github.com/harshit54/google-play-scraper/pkg/developer"
 )
 
 func main() {
@@ -193,7 +193,7 @@ package main
 import (
     "fmt"
 
-    "github.com/n0madic/google-play-scraper/pkg/reviews"
+    "github.com/harshit54/google-play-scraper/pkg/reviews"
 )
 
 func main() {
@@ -222,7 +222,7 @@ package main
 import (
     "fmt"
 
-    "github.com/n0madic/google-play-scraper/pkg/similar"
+    "github.com/harshit54/google-play-scraper/pkg/similar"
 )
 
 func main() {
@@ -250,7 +250,7 @@ package main
 import (
     "fmt"
 
-    "github.com/n0madic/google-play-scraper/pkg/suggest"
+    "github.com/harshit54/google-play-scraper/pkg/suggest"
 )
 
 func main() {

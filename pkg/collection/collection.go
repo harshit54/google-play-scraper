@@ -1,8 +1,8 @@
 package collection
 
 import (
-	"github.com/n0madic/google-play-scraper/pkg/scraper"
-	"github.com/n0madic/google-play-scraper/pkg/store"
+	"github.com/harshit54/google-play-scraper/pkg/scraper"
+	"github.com/harshit54/google-play-scraper/pkg/store"
 )
 
 // Options type alias

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/n0madic/google-play-scraper/internal/parse"
-	"github.com/n0madic/google-play-scraper/internal/util"
-	"github.com/n0madic/google-play-scraper/pkg/reviews"
+	"github.com/harshit54/google-play-scraper/internal/parse"
+	"github.com/harshit54/google-play-scraper/internal/util"
+	"github.com/harshit54/google-play-scraper/pkg/reviews"
 )
 
 const (

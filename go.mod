@@ -1,4 +1,4 @@
-module github.com/n0madic/google-play-scraper
+module github.com/harshit54/google-play-scraper
 
 go 1.18
 
