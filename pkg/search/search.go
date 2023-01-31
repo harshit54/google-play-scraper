@@ -3,6 +3,7 @@ package search
 import (
 	"net/url"
 	"strconv"
+	"strings"
 
 	"github.com/harshit54/google-play-scraper/pkg/scraper"
 )
@@ -35,12 +36,14 @@ func NewQuery(query string, price PriceQuery, options Options) *scraper.Scraper 
 
 	// Query params
 	params := url.Values{}
-	params.Add("q", url.QueryEscape(query))
+	params.Add("q", url.QueryEscape(strings.Replace(query, " ", "+", -1)))
 	params.Add("c", "apps")
 	params.Add("price", strconv.Itoa(int(price)))
+
 	if options.Country != "" {
 		params.Add("gl", options.Country)
 	}
+
 	baseURL.RawQuery = params.Encode()
 	return scraper.New(baseURL.String(), &options)
 }
